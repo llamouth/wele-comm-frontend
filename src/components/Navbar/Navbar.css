@@ -1,14 +1,14 @@
-/* Use the same color variables */
+/* Use the updated color variables */
 :root {
-  --soft-white: #FAFAFA;
-  --forest-green: #2E7D32;
-  --gold: #F9A825;
+  --light-gray: #F5F5F5;
+  --navy: #1C1C1E;
+  --bright-blue: #2979FF;
   --text-color: #333;
 }
 
 .navbar {
-  background-color: var(--forest-green);
-  color: var(--soft-white);
+  background-color: var(--navy);
+  color: var(--light-gray);
   padding: 10px 0;
 }
 
@@ -38,14 +38,14 @@
 }
 
 .navbar-links a {
-  color: var(--soft-white);
+  color: var(--light-gray);
   text-decoration: none;
   padding: 5px 10px;
   border-radius: 5px;
 }
 
 .navbar-links a:hover {
-  background-color: var(--gold);
+  background-color: var(--bright-blue);
 }
 
 .navbar-cart {
@@ -61,8 +61,8 @@
   position: absolute;
   top: -10px;
   right: -10px;
-  background-color: var(--gold);
-  color: var(--soft-white);
+  background-color: var(--bright-blue);
+  color: var(--light-gray);
   border-radius: 50%;
   padding: 3px 6px;
   font-size: 0.8rem;

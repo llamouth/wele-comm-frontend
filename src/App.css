@@ -1,15 +1,15 @@
 /* Define color variables */
 :root {
-    --soft-white: #FAFAFA;
-    --forest-green: #2E7D32;
-    --gold: #F9A825;
+    --light-gray: #F5F5F5;
+    --navy: #1C1C1E;
+    --bright-blue: #2979FF;
     --text-color: #333;
 }
 
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: var(--soft-white);
+    background-color: var(--light-gray);
     color: var(--text-color);
 }
 
@@ -30,8 +30,8 @@ main {
 
 footer {
     flex-shrink: 0;
-    background-color: var(--forest-green);
-    color: var(--soft-white);
+    background-color: var(--navy);
+    color: var(--light-gray);
     text-align: center;
     padding: 10px 0;
     min-height: fit-content;
