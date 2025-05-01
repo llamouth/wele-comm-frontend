@@ -1,0 +1,38 @@
+/* Define color variables */
+:root {
+    --soft-white: #FAFAFA;
+    --forest-green: #2E7D32;
+    --gold: #F9A825;
+    --text-color: #333;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--soft-white);
+    color: var(--text-color);
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    flex-shrink: 0;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+footer {
+    flex-shrink: 0;
+    background-color: var(--forest-green);
+    color: var(--soft-white);
+    text-align: center;
+    padding: 10px 0;
+    min-height: fit-content;
+}

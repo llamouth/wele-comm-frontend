@@ -1,16 +1,22 @@
-import { useState } from 'react'
-import './App.css'
+import './App.css';
 
 // Components
-import NavBar from './components/Navbar/NavBar'
+import NavBar from './components/Navbar/NavBar';
 
 function App() {
-
   return (
     <div className="App">
-      <NavBar />
+      <header>
+        <NavBar />
+      </header>
+      <main>
+        {/* Add main content here */}
+      </main>
+      <footer>
+        <p>&copy; {new Date().getFullYear()} Wele-com. All rights reserved.</p>
+      </footer>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
