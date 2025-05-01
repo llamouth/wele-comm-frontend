@@ -1,7 +1,7 @@
 import './App.css';
 
 // Components
-import NavBar from './components/Navbar/NavBar';
+import NavBar from './components/Navbar/Navbar';
 
 function App() {
   return (
